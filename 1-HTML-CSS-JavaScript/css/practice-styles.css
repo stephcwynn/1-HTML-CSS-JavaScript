@@ -1,0 +1,49 @@
+body {
+    background: #a3a3a3;
+    font-family: Tahoma, Arial, sans-serif
+}
+
+h1 {
+    color: #450754;
+    font: 48px Garamond, Helvetica, serif;
+    text-decoration: underline
+    ;
+}
+
+table {
+    width: 50%;
+}
+
+thead {
+    text-align: left;
+}
+
+label {
+    display: block;
+}
+
+#submit-btn {
+    display: block;
+}
+
+form {
+    border: 1px groove black;
+    padding: 12px;
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px dotted black;
+}
+
+.button {
+    background-color: coral;
+    border: none;
+    color: white;
+    text-align: center;
+    
+}
