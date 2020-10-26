@@ -1,7 +1,7 @@
 const colors=['blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
 let guesses = 0;
 
-function runGame(){
+function do_game(){
     let choice = true;
 	let target = Math.floor(Math.random() * colors.length);
     console.log(colors[target]);
@@ -36,3 +36,4 @@ function checkGuess(target,guess){
     }
 }
 
+do_game();
